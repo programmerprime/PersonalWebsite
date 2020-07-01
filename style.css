@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    text-align: justify;
+    font-size: 20px;
+    color: darkcyan;
+}
+
+div a {
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    background: mediumseagreen;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div a:hover {
+    background-color: indianred;
+}
+
+section {
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.header {
+    background-image: url('images/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+.biography {
+    background-image: url('images/biography-bg.png');
+    background-repeat: no-repeat;
+    
+}
+
+.latest-work {
+    background-image: url('images/latest-work-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.footer {
+    background-image: url('images/footer-bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.half-width {
+    float: left;
+    width: 43%;
+    margin-left: 3%;
+    margin-right: 2%;
+    padding-left: 2%;
+}
+
+
+.footerdiv {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.work {
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+.work img {
+    width: 100%;
+    
+}
+
+
+.half-width img {
+    width: 100%;
+  
+}
+
+
+.footerlink {
+    background: darkcyan;
+    padding: 10px;
+    border-radius: 30px;
+}
